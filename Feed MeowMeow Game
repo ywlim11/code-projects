@@ -1,0 +1,95 @@
+# Feed MeowMeow
+import time
+print("This is MeowMeow the Cat")
+time.sleep(1)
+print("""  
+ /\_/\\
+(˶ᵔ ᵕ ᵔ˶)
+/ >🌷<\~⁠♡
+""")
+time.sleep(1)
+print("But right now MeowMeow is hungry...so he looks a bit like this")
+time.sleep(3)
+print("""  
+ ╱|、
+(˚ˎ 。7  
+ |、˜〵          
+じしˍ,)ノ
+
+""")
+
+time.sleep(2)
+print("Since MeowMeow the Cat is hungry, choose a, b or c, which fruit to feed him")
+fruit = input("a)Grapes\nb)Strawberries\nc)Apples\nEnter: ")
+
+
+if fruit == "a":
+    print("""               
+            ／＞　 フ
+            | 　_　_| 
+          ／` ミ＿xノ 
+         /　　　　 |
+        /　 ヽ　　 ﾉ
+        │　　|　|　|
+／￣|　　 |　|　|
+(￣ヽ＿_ヽ_)__)
+＼二)
+""")
+    time.sleep(1)
+    print("MeowMeow the Cat is allergic to grapes...")
+else:
+    print("""
+    /ᐠ - ˕ -マ₊˚⊹♡₊ ⊹ """)
+    print("Thanks! -MeowMeow")
+    time.sleep(1)
+    print("Hold on...im still hungry...")
+
+time.sleep(1)
+print("In order for MeowMeow the Cat to be full, you must feed him fish!")
+feed = input("Would you like to feed him fish? (y/n): ")
+
+if feed == "n":
+    print("Wow...you're really gonna starve MeowMeow?")
+    
+hunger_status = 0
+while feed == "y":
+    while hunger_status < 2:
+        print("Yumz!")
+        print("/ᐠ - ˕ -マ ")
+        hunger_status +=1
+        time.sleep(1)
+        feed = input("I am still hungry, type 'feed' to keep feeding me! ")
+    print("I am full!!!")
+    time.sleep(1)
+    print(" ฅ^•ﻌ•^ฅ ")
+    time.sleep(1)
+    print("Thanks for feeding me! Have a good day!")
+    time.sleep(2)
+    print("MeowMeow the Cat wants to give a performance to thank you!")
+    time.sleep(1)
+    magic = input("Do you want to see? (y/n)")
+    if magic == "y":
+        print("""
+    ∧＿∧
+　 (｡･ω･｡)つ━☆・*。
+  ⊂/　     /　   ・゜
+　しーＪ　　　     °。+ * 。　
+　　　　　                 .・゜
+　　　　　                    ゜｡ﾟﾟ･｡･ﾟﾟ。
+　　　　                         　ﾟ。　｡ﾟ
+                                 　ﾟ･｡･ﾟ 
+                                 """)
+    else:
+        print("Well..it's time to sleep then!")
+        time.sleep(1)
+        print("""
+        
+        
+∩――――――――∩
+||  ∧ ﾍ　 ||
+|| (* ´ ｰ`) ZZzz
+|ﾉ^⌒⌒づ`￣  ＼
+(　ノ　　⌒ ヽ ＼
+＼　　||￣￣￣￣￣||
+　＼,ﾉ||
+    """)
