@@ -1,0 +1,72 @@
+# ROCK PAPER SCISSORS
+import time
+print("Welcome to Rock, Paper and Scissors!") 
+time.sleep(1) 
+print("There will be 3 rounds! Can you beat the computer?")
+time.sleep(1) 
+
+count = 0 
+while count < 3:
+    user_choice = input("Rock, Paper or Scissors?\na) Rock\nb) Paper\nc) Scissors\nEnter: ")
+
+    while user_choice not in ["a","b","c"]:
+        user_choice = input("Hmm...please only input a, b or c\nRe-enter: ")
+
+    import random
+    option = ["Rock!", "Paper!", "Scissors!"]
+    opponent = random.choice(option)
+    print(opponent)
+    time.sleep(0.5)
+    if opponent == "Rock!":
+        print("""
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+""")
+    if opponent == "Paper!":
+        print("""
+     _______
+---'    ____)____
+           ______)
+          _______)
+         _______)
+---.__________)
+""")
+    if opponent == "Scissors!":
+        print("""
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+""")
+ 
+    user_score = 0 
+    comp_score = 0
+    time.sleep(1)
+    if opponent == user_choice:
+        print("Oh it's a draw!")
+    elif (opponent == "Rock!" and user_choice == "c") or (opponent == "Paper!" and user_choice == "a") or (opponent == "Scissors!" and user_choice == "b"):
+        print("Oh no! The computer gets a point!")
+        comp_score +=1
+    else:
+        print("Nice one! You get a point!")
+        user_score += 1
+    count +=1
+    time.sleep(1)
+    
+print("Time to announce the results!")
+time.sleep(2)
+
+print("Your score:",user_score)
+time.sleep(0.5)
+print("Computer's score:", comp_score)
+time.sleep(0.5)
+if user_score > comp_score:
+    print("Yay you win!!")
+else: 
+    print("Aw...it's okay, better luck next time!")
