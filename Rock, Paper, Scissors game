@@ -4,7 +4,9 @@ print("Welcome to Rock, Paper and Scissors!")
 time.sleep(1) 
 print("There will be 3 rounds! Can you beat the computer?")
 time.sleep(1) 
-
+ 
+user_score = 0 
+comp_score = 0
 count = 0 
 while count < 3:
     user_choice = input("Rock, Paper or Scissors?\na) Rock\nb) Paper\nc) Scissors\nEnter: ")
@@ -44,9 +46,7 @@ while count < 3:
       (____)
 ---.__(___)
 """)
- 
-    user_score = 0 
-    comp_score = 0
+
     time.sleep(1)
     if opponent == user_choice:
         print("Oh it's a draw!")
