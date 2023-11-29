@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LIMMY'S VISUAL BOARD</title>
+    <style>
+      img {
+        width: 300px;
+        border-radius: 20px;
+        float: left;
+        margin-right: 10px;
+      }
+      .toptitle {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 align="center">LIMMY'S VISUAL BOARD</h1>
+    <img src="images/nknk.jpeg" />
+    <p class="toptitle">RESOURCES</p>
+    <p>- MY PROJECTS</p>
+    <p>- PJFS</p>
+    <p>- PNGs / JPEGs</p>
+    <p>- Overlays</p>
+    <p>- Effects</p>
+    <p>- Mbl Looks Coloring</p>
+    <p>- Tutorials</p>
+  </body>
+</html>
