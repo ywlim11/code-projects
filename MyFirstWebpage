@@ -1,7 +1,8 @@
+#MAIN PAGE
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>LIMMY'S VISUAL BOARD</title>
+    <title>LIMMY'S BOARD</title>
     <style>
       img {
         width: 300px;
@@ -16,15 +17,40 @@
   </head>
 
   <body>
-    <h1 align="center">LIMMY'S VISUAL BOARD</h1>
-    <img src="images/nknk.jpeg" />
-    <p class="toptitle">RESOURCES</p>
-    <p>- MY PROJECTS</p>
-    <p>- PJFS</p>
-    <p>- PNGs / JPEGs</p>
-    <p>- Overlays</p>
-    <p>- Effects</p>
-    <p>- Mbl Looks Coloring</p>
-    <p>- Tutorials</p>
+    <h1 align="center">LIMMY'S BOARD</h1>
+    <img src="images/nknk.jpeg" alt="Image pin 1" />
+    <h2>CONTENTS</h2>
+    <p><a href="aboutme.html">1. About Me</a></p>
+    <p><a href="awards.html">2. Qualifications & Awards</a></p>
+    <p><a href="interest.html">3. Hobbies & Interest</a></p>
   </body>
 </html>
+
+#ABOUT ME PAGE
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <h1>About Me</h1>
+  <body>
+    <h3>Ethnicity</h3>
+    <p>I come from Malaysia and Hong Kong. My ethnicity is Chinese.</p>
+    <h3>Age</h3>
+    <p>I am born on November 1st 2006. I am 17 this year.</p>
+    <h3>Family</h3>
+    <p>
+      There are 3 people in my family: My mom, dad and I. I also have 2 dogs:
+      Goldie and Latter
+    </p>
+    <h3>Friends</h3>
+    <p>
+      My friends include: Jisu, Jocelyn, Ann Nee, Claire, Dayna, Aaleyah and
+      more
+    </p>
+  </body>
+</html>
+#QUALIFICATION & AWARDS
+#HOBBIES & INTERESTS
