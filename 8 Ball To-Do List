@@ -1,0 +1,25 @@
+# 8 ball to-do list
+Task_array = []
+ExtraTask = True
+
+import time
+import random 
+while ExtraTask == True:
+    Task = input("Enter a task to complete: ")
+    Task_array.append(Task)
+    AskExtraTask = input("Would you like to add another task? y/n: ")
+    if AskExtraTask == "n":
+        ExtraTask = False
+
+while len(Task_array) != 0:
+    print("The 8 ball is generating your task to complete")
+    time.sleep(2)
+    print("🎱")
+    time.sleep(2)
+    Rand = random.choice(Task_array)
+    print("Please complete this task: ",Rand)
+    CompleteCheck = input("Task completed? y/n: ")
+    if CompleteCheck == "y":
+        Task_array.remove(Rand)
+
+print("You have completed all your tasks! Well Done!! Make sure to reward yourself :)")
